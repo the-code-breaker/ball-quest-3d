@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a711708fbfa5ed9b5ebef3e0fa6bcc4, type: 3}
+  m_Name: earth
+  m_EditorClassIdentifier: 
+  id: earth
+  displayName: BLUE PLANET
+  color: {r: 0.05, g: 0.35, b: 0.8, a: 1}
+  stripe: {r: 0.2, g: 0.7, b: 0.25, a: 1}
+  metallic: 0.35
+  smoothness: 0.76
+  glow: 0
+  trail: 0
+  price: 700
+  artStyle: 9
+  explicitAudioMaterial: 0
+  audioMaterial: 0

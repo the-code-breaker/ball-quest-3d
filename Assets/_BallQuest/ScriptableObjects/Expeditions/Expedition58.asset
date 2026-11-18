@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fe17399caf5fbd8381386d0ebcee77, type: 3}
+  m_Name: Expedition58
+  m_EditorClassIdentifier: 
+  id: 58
+  title: Gravity Lab
+  hint: 'Cyan fields bend gravity: floor, wall and ceiling. Orbit to explore.'
+  world: 3
+  spawn: {x: 0, y: 18.65, z: 0}
+  finish: {x: 0, y: 41.35, z: -8}
+  checkpoints:
+  - {x: 0, y: 18.65, z: 10}
+  tracks:
+  - position: {x: 0, y: 17.6, z: -3.1875}
+    size: {x: 9, y: 0.8, z: 3.725}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 0
+    surface: 2
+    alternate: 0
+  - position: {x: 0, y: 17.6, z: 0.4375}
+    size: {x: 9, y: 0.8, z: 3.725}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 0
+    surface: 2
+    alternate: 0
+  - position: {x: 0, y: 17.6, z: 4.0625}
+    size: {x: 9, y: 0.8, z: 3.725}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 0
+    surface: 2
+    alternate: 0
+  - position: {x: 0, y: 17.6, z: 7.6875}
+    size: {x: 9, y: 0.8, z: 3.725}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 0
+    surface: 2
+    alternate: 0
+  - position: {x: 0, y: 17.6, z: 11.3125}
+    size: {x: 9, y: 0.8, z: 3.725}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 0
+    surface: 2
+    alternate: 0
+  - position: {x: 0, y: 17.6, z: 14.9375}
+    size: {x: 9, y: 0.8, z: 3.725}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 0
+    surface: 2
+    alternate: 0
+  - position: {x: 0, y: 17.6, z: 18.5625}
+    size: {x: 9, y: 0.8, z: 3.725}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 0
+    surface: 2
+    alternate: 0
+  - position: {x: 0, y: 17.6, z: 22.1875}
+    size: {x: 9, y: 0.8, z: 3.725}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 0
+    surface: 2
+    alternate: 0
+  obstacles: []
+  pickups:
+  - kind: 0
+    position: {x: 0, y: 18.9, z: -3.1875}
+  - kind: 0
+    position: {x: 0, y: 18.9, z: 4.0625}
+  - kind: 0
+    position: {x: 0, y: 18.9, z: 11.3125}
+  - kind: 0
+    position: {x: 0, y: 18.9, z: 18.5625}
+  - kind: 1
+    position: {x: 0, y: 41.1, z: 5}
+  parSeconds: 200
+  killHeight: 0
+  allowJump: 0
+  mission: Explore freely. Every chosen route is controlled by your own gestures.
+  dropStarts: []
+  dropPoints: []
+  dropDirections: []
+  routePoints:
+  - {x: 0, y: 18, z: 0}
+  - {x: 0, y: 18, z: 10}
+  - {x: 0, y: 18, z: 20}
+  - {x: 0, y: 18, z: 24}
+  - {x: 0, y: 18.045664, z: 25.04587}
+  - {x: 0, y: 18.182308, z: 26.083778}
+  - {x: 0, y: 18.40889, z: 27.10583}
+  - {x: 0, y: 18.723688, z: 28.104242}
+  - {x: 0, y: 19.124306, z: 29.071419}
+  - {x: 0, y: 19.607695, z: 30}
+  - {x: 0, y: 20.170176, z: 30.882917}
+  - {x: 0, y: 20.807467, z: 31.713451}
+  - {x: 0, y: 21.514719, z: 32.485283}
+  - {x: 0, y: 22.286549, z: 33.19253}
+  - {x: 0, y: 23.117083, z: 33.829826}
+  - {x: 0, y: 24, z: 34.392303}
+  - {x: 0, y: 24.928581, z: 34.875694}
+  - {x: 0, y: 25.895758, z: 35.27631}
+  - {x: 0, y: 26.89417, z: 35.59111}
+  - {x: 0, y: 27.916222, z: 35.81769}
+  - {x: 0, y: 28.954132, z: 35.954338}
+  - {x: 0, y: 30, z: 36}
+  - {x: 0, y: 31.045868, z: 35.954338}
+  - {x: 0, y: 32.08378, z: 35.81769}
+  - {x: 0, y: 33.105827, z: 35.59111}
+  - {x: 0, y: 34.10424, z: 35.27631}
+  - {x: 0, y: 35.07142, z: 34.875694}
+  - {x: 0, y: 36, z: 34.392303}
+  - {x: 0, y: 36.88292, z: 33.829826}
+  - {x: 0, y: 37.71345, z: 33.19253}
+  - {x: 0, y: 38.485283, z: 32.485283}
+  - {x: 0, y: 39.19253, z: 31.713451}
+  - {x: 0, y: 39.829826, z: 30.882917}
+  - {x: 0, y: 40.392303, z: 30}
+  - {x: 0, y: 40.875694, z: 29.071419}
+  - {x: 0, y: 41.27631, z: 28.104242}
+  - {x: 0, y: 41.59111, z: 27.10583}
+  - {x: 0, y: 41.81769, z: 26.083778}
+  - {x: 0, y: 41.954338, z: 25.04587}
+  - {x: 0, y: 42, z: 24}
+  - {x: 0, y: 42, z: 20}
+  - {x: 0, y: 42, z: 12}
+  - {x: 0, y: 42, z: 0}
+  - {x: 0, y: 42, z: -8}
+  routeWidths:
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  - 8
+  difficulty: 2
+  expedition: 1
+  signatureMechanic: GravityLab
+  alternateFinishes: []
+  mechanics:
+  - GravityLab
+  - Manual360
+  - signature-v5

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e101e20f74815b75a6182af45ed06287, type: 3}
+  m_Name: magnetic
+  m_EditorClassIdentifier: 
+  id: magnetic
+  displayName: Magnetic
+  ability: 3
+  mass: 1.3
+  acceleration: 27
+  maxSpeed: 14
+  braking: 32
+  airControl: 0.2
+  jumpSpeed: 5.8
+  bounce: 0.025
+  friction: 0.55
+  maximumSpeed: 22
+  reverseSpeed: 14
+  speedResistance: 8
+  rollingResistance: 0.55
+  groundedViscousResistance: 0.32
+  rollingTorqueRatio: 0.4
+  tractionTorque: 5
+  maximumAngularSpeed: 55
+  linearDamping: 0.015
+  angularDamping: 0.025
+  maximumLateralSpeed: 5
+  steeringAcceleration: 28
+  lateralDamping: 7
+  airSteeringAcceleration: 4
+  steeringResponseTime: 0.018
+  steeringReleaseTime: 0.018
+  flickImpulse: 22
+  maximumFlickForce: 36
+  boostSpeed: 25
+  boostAcceleration: 35
+  brakeAngularDamping: 10
+  brakeGestureDuration: 0.45
+  unlockLevel: 121
+  description: Magnetic puzzles are planned for later worlds.

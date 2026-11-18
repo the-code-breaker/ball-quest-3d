@@ -1,0 +1,15 @@
+# Manual 360 control rebuild: baseline audit
+
+28 October 2026. Baseline is the existing Unity 6000.0.65f1 project, version 0.4.0. This audit precedes this revision's implementation.
+
+The current controller does not add a permanent forward force with zero input. However, its touch interface is fundamentally asymmetric: vertical gestures add positive forward impulses, downward gestures only brake, and horizontal gestures request a lateral velocity relative to the authored path. A lateral servo also acts at neutral, cancelling sideways momentum relative to that path. These choices prevent natural free-direction exploration and make the player feel guided. CoursePathFollower changes the reference frame as the player passes route points. QuestCamera aligns to that frame, creating the apparent autopilot camera. Previous tests established authored-route traversal, not manual free-direction touch acceptance.
+
+The rebuild will use symmetric, camera-relative 2D force/traction commands. The default drag-relative input will be resolution independent, reset on touch reposition/release, and relax when the finger stops moving. A configurable gesture-velocity alternative will be available. Sustained opposite input first decelerates, then reverses under the same force limits. Neutral motion will have only physical friction/resistance and real external forces. AI alone may choose its navigation frame and commands; the player will not receive path-centering or minimum-speed assistance.
+
+Gravity-relative support detection and control will support explicit Gravity Lab fields. A stable orbit camera will use its own heading, support manual look in a separate gesture region, and retain a delayed adaptive option without following ball spin. Existing camera effects remain optional.
+
+Current audio is one generic sine rolling loop based on world speed. It does not distinguish ball materials, track surfaces, contact slip or collision impulse. Replace it with data-driven contact audio, crossfading material/surface loops and bounded impact voices. Temporary procedural audio will be labelled, with source/provenance documented.
+
+Existing levels already include ramps, spirals, branches and machinery, but their single mandatory route/checkpoint chain is unsuitable for a maze with multiple legal exits. Preserve the existing content and UI while building five carefully validated signature adventures after the dedicated physics scene passes. Sky Maze, Clockwork Chaos and Gravity Lab require actual branch geometry, moving physical machinery and explicit gravity fields, rather than camera tricks.
+
+Execution order: physics/input replacement and tuning; independent camera; material audio; twelve-station instrumented physics scene and acceptance tests; five signature levels; manual-player race integration; profiling, complete regression checks and a new verified Android APK. Physical-phone and iOS verification remain limited by device/toolchain availability and will be reported separately.

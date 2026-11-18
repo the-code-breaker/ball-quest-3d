@@ -1,0 +1,6 @@
+{
+  "name": "BallQuest.Editor",
+  "rootNamespace": "BallQuest.Editor",
+  "references": ["BallQuest.Runtime", "Unity.InputSystem", "Unity.Cinemachine", "Unity.TextMeshPro", "UnityEngine.UI", "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Core.Runtime"],
+  "includePlatforms": ["Editor"]
+}

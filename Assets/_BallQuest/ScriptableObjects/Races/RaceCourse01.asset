@@ -1,0 +1,675 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fe17399caf5fbd8381386d0ebcee77, type: 3}
+  m_Name: RaceCourse01
+  m_EditorClassIdentifier: 
+  id: 1001
+  title: Harbor Five
+  hint: Race the line, read the machinery, and reach the finish.
+  world: 0
+  spawn: {x: 0, y: 38.62, z: 4}
+  finish: {x: 0, y: 38.7, z: 218}
+  checkpoints:
+  - {x: 5, y: 38.65, z: 82}
+  - {x: 5, y: 38.65, z: 172}
+  tracks:
+  - position: {x: 0, y: 37.6, z: 1.7857144}
+    size: {x: 18, y: 0.8, z: 3.6514287}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 5.3571434}
+    size: {x: 18, y: 0.8, z: 3.6514287}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 8.928572}
+    size: {x: 18, y: 0.8, z: 3.6514282}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 12.5}
+    size: {x: 18, y: 0.8, z: 3.6514292}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 16.07143}
+    size: {x: 18, y: 0.8, z: 3.6514282}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 19.642857}
+    size: {x: 18, y: 0.8, z: 3.6514282}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 23.214287}
+    size: {x: 18, y: 0.8, z: 3.6514282}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 27}
+    size: {x: 14, y: 0.8, z: 4.08}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 31}
+    size: {x: 14, y: 0.8, z: 4.08}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 35}
+    size: {x: 14, y: 0.8, z: 4.08}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 39}
+    size: {x: 14, y: 0.8, z: 4.08}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 43}
+    size: {x: 14, y: 0.8, z: 4.08}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 47}
+    size: {x: 14, y: 0.8, z: 4.08}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0.107421875, y: 37.6, z: 50.75}
+    size: {x: 14, y: 0.8, z: 3.5865877}
+    rotation: {x: -0, y: 3.512633, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0.49804688, y: 37.6, z: 54.25}
+    size: {x: 14, y: 0.8, z: 3.6255345}
+    rotation: {x: -0, y: 9.192502, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 1.1816406, y: 37.6, z: 57.75}
+    size: {x: 14, y: 0.8, z: 3.6704388}
+    rotation: {x: -0, y: 12.887155, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 2.0410156, y: 37.6, z: 61.25}
+    size: {x: 14, y: 0.8, z: 3.698379}
+    rotation: {x: -0, y: 14.696337, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 2.9589844, y: 37.6, z: 64.75}
+    size: {x: 14, y: 0.8, z: 3.698379}
+    rotation: {x: -0, y: 14.696337, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 3.8183594, y: 37.6, z: 68.25}
+    size: {x: 14, y: 0.8, z: 3.6704388}
+    rotation: {x: -0, y: 12.887155, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 4.501953, y: 37.6, z: 71.75}
+    size: {x: 14, y: 0.8, z: 3.6255345}
+    rotation: {x: -0, y: 9.192502, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 4.892578, y: 37.6, z: 75.25}
+    size: {x: 14, y: 0.8, z: 3.5865877}
+    rotation: {x: -0, y: 3.512633, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 37.6, z: 78.75}
+    size: {x: 14, y: 0.8, z: 3.58}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 1
+    surface: 2
+    alternate: 0
+  - position: {x: 5, y: 37.6, z: 82.25}
+    size: {x: 14, y: 0.8, z: 3.58}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 1
+    surface: 2
+    alternate: 0
+  - position: {x: 5, y: 37.89765, z: 85.73563}
+    size: {x: 14, y: 0.8, z: 3.4639924}
+    rotation: {x: 350.0738, y: 0, z: 0}
+    style: 1
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 38.480988, z: 89.068954}
+    size: {x: 14, y: 0.8, z: 3.4639854}
+    rotation: {x: 350.0737, y: 0, z: 0}
+    style: 1
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 39.064323, z: 92.40228}
+    size: {x: 14, y: 0.8, z: 3.4639924}
+    rotation: {x: 350.0738, y: 0, z: 0}
+    style: 1
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 39.64765, z: 95.73563}
+    size: {x: 14, y: 0.8, z: 3.4639924}
+    rotation: {x: 350.0738, y: 0, z: 0}
+    style: 1
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 40.230988, z: 99.068954}
+    size: {x: 14, y: 0.8, z: 3.4639854}
+    rotation: {x: 350.0737, y: 0, z: 0}
+    style: 1
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 40.814323, z: 102.40228}
+    size: {x: 14, y: 0.8, z: 3.4639924}
+    rotation: {x: 350.0738, y: 0, z: 0}
+    style: 1
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 40.813778, z: 105.68424}
+    size: {x: 14, y: 0.8, z: 3.6282778}
+    rotation: {x: 9.462301, y: 0, z: 0}
+    style: 1
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 40.230442, z: 109.18424}
+    size: {x: 14, y: 0.8, z: 3.6282785}
+    rotation: {x: 9.462362, y: 0, z: 0}
+    style: 1
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 39.647106, z: 112.68424}
+    size: {x: 14, y: 0.8, z: 3.6282778}
+    rotation: {x: 9.462301, y: 0, z: 0}
+    style: 1
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 39.063778, z: 116.18424}
+    size: {x: 14, y: 0.8, z: 3.6282778}
+    rotation: {x: 9.462301, y: 0, z: 0}
+    style: 1
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 38.480442, z: 119.68424}
+    size: {x: 14, y: 0.8, z: 3.6282785}
+    rotation: {x: 9.462362, y: 0, z: 0}
+    style: 1
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 37.897106, z: 123.18424}
+    size: {x: 14, y: 0.8, z: 3.6282778}
+    rotation: {x: 9.462301, y: 0, z: 0}
+    style: 1
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 37.6, z: 126.90909}
+    size: {x: 14, y: 0.8, z: 3.8981762}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 37.6, z: 130.72726}
+    size: {x: 14, y: 0.8, z: 3.8981915}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 37.6, z: 134.54546}
+    size: {x: 14, y: 0.8, z: 3.8981762}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 37.6, z: 138.36363}
+    size: {x: 14, y: 0.8, z: 3.8981762}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 37.6, z: 142.18182}
+    size: {x: 14, y: 0.8, z: 3.8981915}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 37.6, z: 146}
+    size: {x: 14, y: 0.8, z: 3.8981762}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 37.6, z: 149.81818}
+    size: {x: 14, y: 0.8, z: 3.8981915}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 37.6, z: 153.63637}
+    size: {x: 14, y: 0.8, z: 3.8981762}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 37.6, z: 157.45454}
+    size: {x: 14, y: 0.8, z: 3.8981762}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 37.6, z: 161.27274}
+    size: {x: 14, y: 0.8, z: 3.8981915}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 37.6, z: 165.09091}
+    size: {x: 14, y: 0.8, z: 3.8981762}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 5, y: 37.6, z: 168.75}
+    size: {x: 14, y: 0.8, z: 3.58}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 1
+    surface: 2
+    alternate: 0
+  - position: {x: 5, y: 37.6, z: 172.25}
+    size: {x: 14, y: 0.8, z: 3.58}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 1
+    surface: 2
+    alternate: 0
+  - position: {x: 4.892578, y: 37.6, z: 175.75}
+    size: {x: 14, y: 0.8, z: 3.5865877}
+    rotation: {x: 0, y: 356.48737, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 4.501953, y: 37.6, z: 179.25}
+    size: {x: 14, y: 0.8, z: 3.6255345}
+    rotation: {x: 0, y: 350.8075, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 3.8183594, y: 37.6, z: 182.75}
+    size: {x: 14, y: 0.8, z: 3.6704388}
+    rotation: {x: 0, y: 347.11285, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 2.9589844, y: 37.6, z: 186.25}
+    size: {x: 14, y: 0.8, z: 3.698379}
+    rotation: {x: 0, y: 345.30365, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 2.0410156, y: 37.6, z: 189.75}
+    size: {x: 14, y: 0.8, z: 3.698379}
+    rotation: {x: 0, y: 345.30365, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 1.1816406, y: 37.6, z: 193.25}
+    size: {x: 14, y: 0.8, z: 3.6704388}
+    rotation: {x: 0, y: 347.11285, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0.49804688, y: 37.6, z: 196.75}
+    size: {x: 14, y: 0.8, z: 3.6255345}
+    rotation: {x: 0, y: 350.8075, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0.107421875, y: 37.6, z: 200.25}
+    size: {x: 14, y: 0.8, z: 3.5865877}
+    rotation: {x: 0, y: 356.48737, z: 0}
+    style: 0
+    rails: 1
+    surface: 0
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 203.83334}
+    size: {x: 13, y: 0.8, z: 3.7466717}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 1
+    surface: 2
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 207.5}
+    size: {x: 13, y: 0.8, z: 3.7466564}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 1
+    surface: 2
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 211.16666}
+    size: {x: 13, y: 0.8, z: 3.7466717}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 1
+    surface: 2
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 214.83334}
+    size: {x: 13, y: 0.8, z: 3.7466717}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 1
+    surface: 2
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 218.5}
+    size: {x: 13, y: 0.8, z: 3.7466564}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 1
+    surface: 2
+    alternate: 0
+  - position: {x: 0, y: 37.6, z: 222.16666}
+    size: {x: 13, y: 0.8, z: 3.7466717}
+    rotation: {x: -0, y: 0, z: 0}
+    style: 4
+    rails: 1
+    surface: 2
+    alternate: 0
+  obstacles:
+  - kind: 6
+    position: {x: 5, y: 38.13, z: 137}
+    size: {x: 7, y: 0.25, z: 5}
+    axis: {x: 0, y: 0, z: 1}
+    amplitude: 2.2
+    speed: 1
+    phase: 0
+    rotation: {x: -0, y: 0, z: 0}
+    warningSeconds: 1.1
+  pickups:
+  - kind: 0
+    position: {x: 0, y: 38.85, z: 5.3571434}
+  - kind: 0
+    position: {x: 0, y: 38.85, z: 12.5}
+  - kind: 0
+    position: {x: 0, y: 38.85, z: 19.642857}
+  - kind: 0
+    position: {x: 0, y: 38.85, z: 31}
+  - kind: 0
+    position: {x: 0, y: 38.85, z: 39}
+  - kind: 0
+    position: {x: 0, y: 38.85, z: 47}
+  - kind: 0
+    position: {x: 0.49804688, y: 38.85, z: 54.25}
+  - kind: 0
+    position: {x: 2.0410156, y: 38.85, z: 61.25}
+  - kind: 0
+    position: {x: 3.8183594, y: 38.85, z: 68.25}
+  - kind: 0
+    position: {x: 4.892578, y: 38.85, z: 75.25}
+  - kind: 0
+    position: {x: 5, y: 38.85, z: 78.75}
+  - kind: 0
+    position: {x: 5, y: 38.85, z: 82.25}
+  - kind: 0
+    position: {x: 5, y: 39.725, z: 89}
+  - kind: 0
+    position: {x: 5, y: 40.891663, z: 95.66667}
+  - kind: 0
+    position: {x: 5, y: 42.058334, z: 102.33333}
+  - kind: 0
+    position: {x: 5, y: 41.475, z: 109.25}
+  - kind: 0
+    position: {x: 5, y: 40.308334, z: 116.25}
+  - kind: 0
+    position: {x: 5, y: 39.141663, z: 123.25}
+  - kind: 0
+    position: {x: 5, y: 38.85, z: 130.72726}
+  - kind: 0
+    position: {x: 5, y: 38.85, z: 138.36363}
+  - kind: 0
+    position: {x: 5, y: 38.85, z: 146}
+  - kind: 0
+    position: {x: 5, y: 38.85, z: 153.63637}
+  - kind: 0
+    position: {x: 5, y: 38.85, z: 161.27274}
+  - kind: 0
+    position: {x: 5, y: 38.85, z: 168.75}
+  - kind: 0
+    position: {x: 5, y: 38.85, z: 172.25}
+  - kind: 0
+    position: {x: 4.501953, y: 38.85, z: 179.25}
+  - kind: 0
+    position: {x: 2.9589844, y: 38.85, z: 186.25}
+  - kind: 0
+    position: {x: 1.1816406, y: 38.85, z: 193.25}
+  - kind: 0
+    position: {x: 0.107421875, y: 38.85, z: 200.25}
+  - kind: 0
+    position: {x: 0, y: 38.85, z: 207.5}
+  - kind: 0
+    position: {x: 0, y: 38.85, z: 214.83334}
+  - kind: 0
+    position: {x: 0, y: 38.85, z: 222.16666}
+  parSeconds: 102.8
+  killHeight: 26.599998
+  allowJump: 0
+  mission: Race the line, read the machinery, and reach the finish.
+  dropStarts: []
+  dropPoints: []
+  dropDirections: []
+  routePoints:
+  - {x: 0, y: 38, z: 0}
+  - {x: 0, y: 38, z: 3.5714288}
+  - {x: 0, y: 38, z: 7.1428576}
+  - {x: 0, y: 38, z: 10.714286}
+  - {x: 0, y: 38, z: 14.285715}
+  - {x: 0, y: 38, z: 17.857143}
+  - {x: 0, y: 38, z: 21.428572}
+  - {x: 0, y: 38, z: 25}
+  - {x: 0, y: 38, z: 29}
+  - {x: 0, y: 38, z: 33}
+  - {x: 0, y: 38, z: 37}
+  - {x: 0, y: 38, z: 41}
+  - {x: 0, y: 38, z: 45}
+  - {x: 0, y: 38, z: 49}
+  - {x: 0.21484375, y: 38, z: 52.5}
+  - {x: 0.78125, y: 38, z: 56}
+  - {x: 1.5820312, y: 38, z: 59.5}
+  - {x: 2.5, y: 38, z: 63}
+  - {x: 3.4179688, y: 38, z: 66.5}
+  - {x: 4.21875, y: 38, z: 70}
+  - {x: 4.7851562, y: 38, z: 73.5}
+  - {x: 5, y: 38, z: 77}
+  - {x: 5, y: 38, z: 80.5}
+  - {x: 5, y: 38, z: 84}
+  - {x: 5, y: 38.583332, z: 87.333336}
+  - {x: 5, y: 39.166668, z: 90.666664}
+  - {x: 5, y: 39.75, z: 94}
+  - {x: 5, y: 40.333332, z: 97.333336}
+  - {x: 5, y: 40.916668, z: 100.666664}
+  - {x: 5, y: 41.5, z: 104}
+  - {x: 5, y: 40.916668, z: 107.5}
+  - {x: 5, y: 40.333332, z: 111}
+  - {x: 5, y: 39.75, z: 114.5}
+  - {x: 5, y: 39.166668, z: 118}
+  - {x: 5, y: 38.583332, z: 121.5}
+  - {x: 5, y: 38, z: 125}
+  - {x: 5, y: 38, z: 128.81818}
+  - {x: 5, y: 38, z: 132.63637}
+  - {x: 5, y: 38, z: 136.45454}
+  - {x: 5, y: 38, z: 140.27272}
+  - {x: 5, y: 38, z: 144.09091}
+  - {x: 5, y: 38, z: 147.90909}
+  - {x: 5, y: 38, z: 151.72728}
+  - {x: 5, y: 38, z: 155.54546}
+  - {x: 5, y: 38, z: 159.36363}
+  - {x: 5, y: 38, z: 163.18182}
+  - {x: 5, y: 38, z: 167}
+  - {x: 5, y: 38, z: 170.5}
+  - {x: 5, y: 38, z: 174}
+  - {x: 4.7851562, y: 38, z: 177.5}
+  - {x: 4.21875, y: 38, z: 181}
+  - {x: 3.4179688, y: 38, z: 184.5}
+  - {x: 2.5, y: 38, z: 188}
+  - {x: 1.5820312, y: 38, z: 191.5}
+  - {x: 0.78125, y: 38, z: 195}
+  - {x: 0.21484375, y: 38, z: 198.5}
+  - {x: 0, y: 38, z: 202}
+  - {x: 0, y: 38, z: 205.66667}
+  - {x: 0, y: 38, z: 209.33333}
+  - {x: 0, y: 38, z: 213}
+  - {x: 0, y: 38, z: 216.66667}
+  - {x: 0, y: 38, z: 220.33333}
+  - {x: 0, y: 38, z: 224}
+  routeWidths:
+  - 18
+  - 18
+  - 18
+  - 18
+  - 18
+  - 18
+  - 18
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 14
+  - 13
+  - 13
+  - 13
+  - 13
+  - 13
+  - 13
+  - 13
+  difficulty: 2
+  mechanics:
+  - Roll
+  - Right
+  - Hill
+  - Turbo
+  - Left

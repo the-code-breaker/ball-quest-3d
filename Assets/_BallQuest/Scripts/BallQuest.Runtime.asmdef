@@ -1,0 +1,6 @@
+{
+  "name": "BallQuest.Runtime",
+  "rootNamespace": "BallQuest",
+  "references": ["Unity.InputSystem", "Unity.Cinemachine", "Unity.TextMeshPro", "UnityEngine.UI", "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Core.Runtime"],
+  "autoReferenced": true
+}

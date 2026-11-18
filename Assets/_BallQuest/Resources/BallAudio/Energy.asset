@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cfc53104ea557b43bcd398702213ed2, type: 3}
+  m_Name: Energy
+  m_EditorClassIdentifier: 
+  material: 5
+  provenance: 'Natural contact v10: CC0 ball/contact recordings by slamsal, 89o_dev,
+    SomeoneCool15, RyanKingArt and Ian_G; edited and material/surface mixed. See
+    AUDIO_CREDITS.md.'
+  audioRevision: 10
+  rolling: {fileID: 8300000, guid: e1ce36dce6015179830e1bfc4eae8973, type: 3}
+  sliding: {fileID: 8300000, guid: 2104b481046658c5bc99c936e0cffbd9, type: 3}
+  impact: {fileID: 8300000, guid: 5c0d800e57775462881ef4e6f944d758, type: 3}
+  outputGroup: {fileID: 0}
+  rollingVolume: 0.2
+  slidingVolume: 0.055
+  impactVolume: 0.65
+  referenceSpeed: 12
+  minimumRollingSpeed: 0.25
+  minimumSlipSpeed: 1.4
+  referenceImpactImpulse: 7
+  impactCooldown: 0.1
+  surfaceCrossfade: 0.18
+  surfaces:
+  - surface: 0
+    rollingGain: 1
+    pitch: 0.98
+    slidingGain: 0.9
+    impactGain: 0.95
+    rollingOverride: {fileID: 0}
+    slidingOverride: {fileID: 0}
+    impactOverride: {fileID: 8300000, guid: 60d7cf884b0b55aa94a2dde942756520, type: 3}
+  - surface: 1
+    rollingGain: 0.84
+    pitch: 1.04
+    slidingGain: 1.05
+    impactGain: 1.1
+    rollingOverride: {fileID: 0}
+    slidingOverride: {fileID: 0}
+    impactOverride: {fileID: 8300000, guid: 825046233c4157199c87ec8fc3cfc4a3, type: 3}
+  - surface: 2
+    rollingGain: 1.08
+    pitch: 0.94
+    slidingGain: 1.15
+    impactGain: 1.05
+    rollingOverride: {fileID: 0}
+    slidingOverride: {fileID: 0}
+    impactOverride: {fileID: 8300000, guid: e7a24bb533885bbdab9290da0ce531bb, type: 3}
+  - surface: 3
+    rollingGain: 0.44
+    pitch: 1.07
+    slidingGain: 0.8
+    impactGain: 0.72
+    rollingOverride: {fileID: 0}
+    slidingOverride: {fileID: 0}
+    impactOverride: {fileID: 8300000, guid: 812c1a9da44f569eb93cd89e183c91da, type: 3}
+  - surface: 4
+    rollingGain: 0.85
+    pitch: 0.93
+    slidingGain: 1.22
+    impactGain: 0.48
+    rollingOverride: {fileID: 0}
+    slidingOverride: {fileID: 0}
+    impactOverride: {fileID: 8300000, guid: b4aed5c7210f561eab3c4a3dc18b3259, type: 3}
+  - surface: 5
+    rollingGain: 0.55
+    pitch: 1.06
+    slidingGain: 0.68
+    impactGain: 0.85
+    rollingOverride: {fileID: 0}
+    slidingOverride: {fileID: 0}
+    impactOverride: {fileID: 8300000, guid: 48624e77e5eb58c79274630decac2774, type: 3}
+  - surface: 6
+    rollingGain: 0.5
+    pitch: 0.95
+    slidingGain: 0.78
+    impactGain: 0.4
+    rollingOverride: {fileID: 0}
+    slidingOverride: {fileID: 0}
+    impactOverride: {fileID: 8300000, guid: 4ae7c8147b3a5549804a40cd8ec5e02f, type: 3}
+  - surface: 7
+    rollingGain: 0.88
+    pitch: 1.02
+    slidingGain: 0.85
+    impactGain: 0.92
+    rollingOverride: {fileID: 0}
+    slidingOverride: {fileID: 0}
+    impactOverride: {fileID: 8300000, guid: 1470cc7a796d553a87c265669466d835, type: 3}

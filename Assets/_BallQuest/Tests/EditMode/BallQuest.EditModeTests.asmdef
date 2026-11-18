@@ -1,0 +1,7 @@
+{
+  "name": "BallQuest.EditModeTests",
+  "references": ["BallQuest.Runtime", "BallQuest.Editor"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}
